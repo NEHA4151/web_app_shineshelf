@@ -11,7 +11,7 @@ export default function SignupPage() {
     const [error, setError] = useState('');
     const router = useRouter();
 
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://web-app-shineshelf.onrender.com';
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
